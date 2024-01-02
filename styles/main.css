@@ -1,0 +1,18 @@
+:root{
+    background-color: #FEF9FC;
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 5%;
+
+    margin: auto;
+    margin-top: 5%;
+    
+    
+    
+    border: 1px solid blue;
+
+}
