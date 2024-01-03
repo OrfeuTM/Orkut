@@ -11,11 +11,28 @@
     <div class="container">
         <div class="fields">
             <div class="fields_title">
-                <p>Acesse o Orkut com sua conta Google!</p>
+                <p id="fields__title">Acesse o Orkut com sua conta Google!</p>
             </div>
             <div class="filds__textbox">
-                <input type="email" name="" id="">
-                <input type="password" name="" id="">
+                <input type="email" placeholder="Digite seu e-mail ou número de celular" name="" id="field__email">
+                <input type="password" placeholder="Digite sua senha" name="" id="field__pass">
+
+                <div class="fields__remember">
+                    <input type="checkbox" name="" id="filed__checkbox">
+                    <label for="fild__remember">Lembrar sempre do meu acesso</label>
+                </div>
+
+                <div class="filds_buttons">
+                    <button id="btnlogin">ENTRAR</button>
+                </div>
+                <div class="fields__recover">
+                    <a href="#">Esqueci senha ou e-mail</a>
+                </div>
+
+                <div class="fields__create">
+                    <a href="#">Não tem conta ? Criar agora!</a>
+                </div> 
+
             </div>
         </div>
     </div>

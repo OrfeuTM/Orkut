@@ -1,5 +1,5 @@
 :root{
-    background-color: #FEF9FC;
+    background-color: #CFBBCB;
 }
 
 .container {
@@ -15,4 +15,8 @@
     
     border: 1px solid blue;
 
+}
+
+.fields{
+    margin:20px 30px ;
 }
