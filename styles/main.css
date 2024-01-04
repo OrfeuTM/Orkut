@@ -1,5 +1,5 @@
 :root{
-    background-color: #CFBBCB;
+    background-color: #e9e1e7;
 }
 
 .container {
@@ -19,4 +19,28 @@
 
 .fields{
     margin:20px 30px ;
+}
+
+.fields{
+    margin: 5% 10X;
+}
+
+#fields__title{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(31, 29, 29);
+    margin bottom: 5%;
+
+}
+
+.pink-font{
+    color: #E8258E;
+}
+
+.filds__textbox{
+    border: 1px solid red;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
 }
