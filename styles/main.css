@@ -1,35 +1,36 @@
 :root{
     background-color: #e9e1e7;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 .container {
     width: 80%;
     height: 70vh;
     background-color: #ffffff;
-    border-radius: 5%;
+    border-radius: 20px;
 
     margin: auto;
     margin-top: 5%;
-    
-    
-    
-    border: 1px solid blue;
 
+    box-shadow: 10px 10px 24px 3px rgba(110,109,109,0.75);
+    -webkit-box-shadow: 10px 10px 24px 3px rgba(110,109,109,0.75);
+    -moz-box-shadow: 10px 10px 24px 3px rgba(110,109,109,0.75);
+
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 .fields{
-    margin:20px 30px ;
+    margin: 5% 10%;
 }
 
-.fields{
-    margin: 5% 10X;
-}
-
-#fields__title{
-    font-size: 18px;
-    font-weight: 800;
+#field__title{
+    font-size: 15px;
+    font-weight: bold;
     color: rgb(31, 29, 29);
-    margin bottom: 5%;
+
+    margin-top: 15px;
+    margin:bottom:5%;
+
 
 }
 
@@ -37,10 +38,73 @@
     color: #E8258E;
 }
 
-.filds__textbox{
-    border: 1px solid red;
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
+.fields__textbox{
     height: 100px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields__textbox > input{
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin:bottom:5%;
+}
+
+.fields__remember{
+    margin-bottom: 20px;
+}
+
+#btnlogin {
+    width: 100%;
+    background-color: #E8258E;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.fields__recover > a , .fields__create > a {
+    text-decoration: none;
+    color: black;
+}
+
+.fields__recover{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.fields__create{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.fields__title{
+    display: flex;
+    justify-content: center
+    ;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.logo > img{
+    height:80px;
 }
